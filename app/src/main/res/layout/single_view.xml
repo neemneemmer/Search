@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_netflix_1_foreground"
+        android:scaleType="fitXY"
+        android:layout_margin="20dp"
+        android:id="@+id/image_single_view"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/texyView_single_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Netflix"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="230dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/cardview_light_background"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

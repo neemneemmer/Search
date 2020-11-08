@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Search</string>
+    <string name="search_hint">ค้นหาอะไรซักอย่าง</string>
+    <string name="search_img">search</string>
+
+    <!-- Menu -->
+    <string name="home">หน้าหลัก</string>
+    <string name="mygroup">กลุ่มของฉัน</string>
+    <string name="notification">การแจ้งเตือน</string>
+    <string name="user">บัญชีผู้ใช้</string>
+</resources>
